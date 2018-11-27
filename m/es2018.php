@@ -555,7 +555,7 @@ ul, ol, li {list-style: none;}
 	<input type="hidden" id="__st" name="__st" value="<?php echo $__st;?>"/>
 	<input type="hidden" id="share_ksyun_link" name="share_ksyun_link" value="<?php echo $share_ksyun_link;?>"/>	
 	<input type="hidden" id="share_org_link" name="share_org_link" value="<?php echo $share_org_link;?>"/>	
-	<script src="./js/common.js?v=10.94"></script>
+	<script src="./js/common.js?v=10.96"></script>
 	<script>if (!window.navigator.userAgent.match(/MicroMessenger/i)) { window.location.href = "http://www.baidu.com/";}</script>
 </body>
 </html>

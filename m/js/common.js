@@ -103,7 +103,7 @@ $(".pop_share").click(function(){
 				    var link = $("#share_ksyun_link").val();
 				    var imgUrl = "http://"+location.hostname+"/img/ico150.jpg";
 					wxsharefriend(title,desc,link,imgUrl,step);				
-					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #1FD02E;position: relative;">分享成功<img style="width: 28px;position: absolute;" src="../img/ok.png"/></b>'		
+					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #1FD02E;position: relative;">分享成功<img style="width: 24px;position: absolute;" src="../img/dui.png"/></b>'		
 						                          +'<br/>' 
 						                          +'<br/>' 
 												  +'<div><span>您仅需再分享到</span>'
@@ -138,7 +138,7 @@ $(".pop_share").click(function(){
 				    var link = $("#share_org_link").val();
 				    var imgUrl = "http://"+location.hostname+"/img/0283.jpg";
 					wxsharefriend(title,desc,link,imgUrl,step);
-					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #D9200C;position: relative;">分享失败<img style="width: 24px;bottom:-1px;position:absolute;" src="../img/fail.png"/></b>'						
+					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #D9200C;position: relative;">分享失败<img style="width: 24px;bottom:-1px;position:absolute;" src="../img/cuo.png"/></b>'						
 											  +'<div>注意：请不要分享到<span style="display:inline;color:#D9200C;font-weight:bold;">相同的群或好友</span></div>'
 											  +'<div>请尝试重新分享到<span style="display:inline;color:#D9200C;font-weight:bold;">不同的群</span></div>'
 											  +'<div>即可马上领取<span style="display:inline;color:#D9200C;font-weight:bold;">'+hub_money+'元现金</span></div></div>';
@@ -169,7 +169,7 @@ $(".pop_share").click(function(){
 				    var link = $("#share_org_link").val();
 				    var imgUrl = "http://"+location.hostname+"/img/0283.jpg";
 				    wxsharefriend(title,desc,link,imgUrl,step);
-					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #1FD02E;position: relative;">分享成功<img style="width: 28px;position: absolute;" src="../img/ok.png"/></b>'		
+					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #1FD02E;position: relative;">分享成功<img style="width: 24px;position: absolute;" src="../img/dui.png"/></b>'		
 						                        +'<br/>'
 						                        +'<br/>'
 												  +'<div><span>仅需再分享到</span>'
@@ -200,7 +200,7 @@ $(".pop_share").click(function(){
 				    var link = $("#share_org_link").val();
 				    var imgUrl = "http://"+location.hostname+"/img/ico150.jpg";					
 					 wxsharetimeline(title,link,imgUrl,step);
-					 var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #1FD02E;position: relative;">分享成功<img style="width: 28px;position: absolute;" src="../img/ok.png"/></b>'		
+					 var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color: #1FD02E;position: relative;">分享成功<img style="width: 24px;position: absolute;" src="../img/dui.png"/></b>'		
 						                          +'<br/>'
 						                          +'<br/>'
 												  +'<div><span>只剩</span><span style="font-size: 18px;color:#D9200C;font-weight:bold;">最后一步啦</span></div>'
@@ -224,13 +224,13 @@ $(".pop_share").click(function(){
 					           fail:function(res){
 						       } 
 				     }); 
-					var title = "实习小生把已经宣布死亡的病人救活，结果出乎所有人意料。";
-				    var desc = "";
+					var title = "主任宣布病人死亡，毕业生几针下去竟救活了，惊呆所有人";
+				    var desc = "主任宣布病人死亡，毕业生几针下去竟救活了，惊呆所有人";
 				    //var link = "http://"+location.hostname+'/v6.html?api=M2QoemkUWGq6uMOWAk8gkqqYQSm20XuUM2wM6SswWKK0XEY8W2kq2IqsKEO02';
 				    var link = $("#share_ksyun_link").val();
-				    var imgUrl = "http://"+location.hostname+"/img/timeline2.jpg";
+				    var imgUrl = "http://"+location.hostname+"/img/guaiyi.jpg";
 					wxsharetimeline(title,link,imgUrl,step);
-					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color:#D9200C;position: relative;">分享失败<img style="width:24px;bottom:-1px;position:absolute;" src="../img/fail.png"/></b>'		
+					var tips_msg ='<div style="text-align:center;"><b style="font-size: 18px;color:#D9200C;position: relative;">分享失败<img style="width:24px;bottom:-1px;position:absolute;" src="../img/cuo.png"/></b>'		
                         +'<br/>'
                         +'<br/>'
 						  +'<div><span>注意：必须</span><span style="font-size: 18px;color:#D9200C;font-weight:bold;">公开</span>分享才可以领取</div>'
